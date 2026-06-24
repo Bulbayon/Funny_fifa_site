@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-image: url(pictures/field_home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+header{
+    padding:1px;
+    background-color: rgb(255, 255, 255);
+    height:70px;
+    width:100%;
+    display:flex;
+}
+.logo_head{
+    margin-top: 5px;
+    justify-self: flex-start;
+    margin-bottom: 5px;
+}
+.logo_head img{
+    height:60px;
+}
+/*-------------------------------------------------*/
+.list{
+    margin-top:6px;
+}
+
+.list ul{
+    display:flex;
+    gap:20px;
+    list-style: none;
+}
+
+.list ul a{
+    text-decoration: none;
+}
+
+.list ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:rgb(55, 57, 72)
+}
+.list ul li:hover{
+    font-size: 1.1em;
+    color:black
+}
+.list ul li:active{
+    color:blue;
+    font-size: 1.1em;
+}
+/*-------------------------------------------------*/
+.decoration {
+    display:flex;
+    height:5px;
+}
+.red {
+    background-color:red;
+    width:33.3%
+}
+.blue {
+    background-color:rgb(36, 29, 255);
+    width:33.3%
+}
+.green {
+    background-color:rgb(61, 255, 94);
+    width:33.3%
+}
+/*------------------------------------------------------*/
+main{
+    flex:1;
+}
+/*------------------------------------------------------*/
+footer{
+    background-color: rgb(23, 23, 23);
+    padding:1px;
+    height:70px;
+    width:100%;
+}
+.endNote{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.endNote p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color:rgb(45, 45, 45)
+}
